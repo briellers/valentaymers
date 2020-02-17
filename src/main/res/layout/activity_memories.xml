@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1eae98">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+        <ImageButton
+            android:id="@+id/picTaeyeon"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:background="#000"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/taeyeon" />
+
+        <ImageButton
+            android:id="@+id/picTiffany"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picTaeyeon"
+            app:srcCompat="@drawable/tiffany" />
+
+        <ImageButton
+            android:id="@+id/picYuri"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picTiffany"
+            app:srcCompat="@drawable/yuri" />
+
+        <ImageButton
+            android:id="@+id/picSeohyun"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picYuri"
+            app:srcCompat="@drawable/seohyun" />
+
+        <ImageButton
+            android:id="@+id/picYoona"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picSeohyun"
+            app:srcCompat="@drawable/yoona" />
+
+        <ImageButton
+            android:id="@+id/picSnsd"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picSooyoung"
+            app:srcCompat="@drawable/snsd" />
+
+        <ImageButton
+            android:id="@+id/picSooyoung"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picHyoyeon"
+            app:srcCompat="@drawable/sooyoung" />
+
+        <ImageButton
+            android:id="@+id/picHyoyeon"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picSunny"
+            app:srcCompat="@drawable/hyoyeon" />
+
+        <ImageButton
+            android:id="@+id/picSunny"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:scaleType="fitCenter"
+            android:background="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/picJessica"
+            app:srcCompat="@drawable/sunny" />
+
+        <ImageButton
+            android:id="@+id/picJessica"
+            android:layout_width="165dp"
+            android:layout_height="223dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:background="#000"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/jessica" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-light"
+            android:text="MEMBERS"
+            android:textColor="#fff"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

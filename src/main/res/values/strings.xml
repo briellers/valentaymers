@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Valentaymers</string>
+
+    // labels for the selected activity
+    <string name="taeyeon">TAEYEON</string>
+    <string name="jessica">JESSICA</string>
+    <string name="tiffany">TIFFANY</string>
+    <string name="sunny">SUNNY</string>
+    <string name="yuri">YURI</string>
+    <string name="hyoyeon">HYOYEON</string>
+    <string name="seohyun">SEOHYUN</string>
+    <string name="sooyoung">SOOYOUNG</string>
+    <string name="yoona">YOONA</string>
+    <string name="snsd">SNSD</string>
+
+    <string name="tyDesc">
+        Stage Name: Taeyeon\n
+        Birth Name: Kim Tae Yeon\n
+        Position: Leader, Main Vocalist\n
+        Birth Date: March 9, 1989\n
+        Zodiac sign: Pisces\n
+        Birth Place: Jeonju, North Jeolla, South Korea\n
+        Height: 158cm (5’2″)\n
+        Weight: 45 kg (99 lbs)\n
+        Blood Type: A\n
+        Hobbies: Watching movies, listening to music\n
+        Specialty: Chinese, Singing\n
+    </string>
+
+    <string name="sjDesc">
+        Stage Name: Jessica\n
+        Birth Name: Jessica Jung\n
+        Korean Name: Jung Soo-yeon\n
+        Position: Main Vocalist\n
+        Birth Date: April 18, 1989\n
+        Zodiac sign: Aries\n
+        Birth Place: San Francisco, California, USA\n
+        Height: 162 cm (5 ft 3¾ in)\n
+        Weight: 46 kg (101 lbs)\n
+        Blood Type: B\n
+        Hobbies: Watching movies, shopping, listening to music\n
+        Specialty: English, piano, singing\n
+    </string>
+
+    <string name="myDesc">
+        Stage Name: Tiffany Young\n
+        Birth Name: Stephanie Hwang\n
+        Korean Name: Hwang Mi Young\n
+        Position: Lead Vocalist, Rapper\n
+        Birth Date: August 1, 1989\n
+        Zodiac sign: Leo\n
+        Birth Place: San Francisco, California, USA\n
+        Height: 163 cm (5’4″)\n
+        Weight: 51 kg (112 lbs)\n
+        Blood Type: O\n
+        Hobbies: Watching movies, listening to music\n
+        Specialty: English, flute\n
+    </string>
+
+    <string name="skDesc">
+        Stage Name: Sunny\n
+        Birth Name: Lee Soon Kyu\n
+        Position: Lead Vocalist, Sub Rapper\n
+        Birth Date: May 15, 1989\n
+        Zodiac sign: Taurus\n
+        Birthplace: Los Angeles, California, USA\n
+        Height: 155cm (5’1″)\n
+        Weight: 44 kg (97 lbs)\n
+        Blood Type: B\n
+        Hobbies: Listening to music, shopping\n
+        Specialty: Sports\n
+    </string>
+
+    <string name="yrDesc">
+        Stage Name: Yuri\n
+        Birth Name: Kwon Yu Ri\n
+        Position: Lead Dancer, Lead Rapper, Vocalist\n
+        Birth Date: December 5, 1989\n
+        Zodiac sign: Sagittarius\n
+        Birth Place: Goyang, Gyeonggi, South Korea\n
+        Height: 166 cm (5’5″)\n
+        Weight: 46 kg (101 lbs)\n
+        Blood Type: AB\n
+        Hobbies: Studying, swimming, exercising\n
+        Specialty: Chinese, swimming, dancing, acting\n
+    </string>
+
+    <string name="hyDesc">
+        Stage Name: Hyoyeon\n
+        Birth Name: Kim Hyo Yeon\n
+        Position: Main Dancer, Main Rapper, Vocalist\n
+        Birth Date: September 22, 1989\n
+        Zodiac sign: Virgo\n
+        Birth Place: Incheon, South Korea\n
+        Height: 160 cm (5’3″)\n
+        Weight: 49 kg (108 lbs)\n
+        Blood Type: AB\n
+        Hobbies: Watching movies, listening to music\n
+        Specialty: Chinese, dance\n
+    </string>
+
+    <string name="shDesc">
+        Stage Name: Seohyun\n
+        Birth Name: Seo Joo Hyun\n
+        Position: Lead Vocalist, Maknae\n
+        Birth Date: June 28, 1991\n
+        Zodiac sign: Cancer\n
+        Birth Place: Seoul, South Korea\n
+        Height: 168 cm (5’6″)\n
+        Weight: 49 kg (108 lbs)\n
+        Blood Type: A\n
+        Hobbies: Listening to music\n
+        Specialty: Chinese, piano\n
+    </string>
+
+    <string name="syDesc">
+        Stage Name: Sooyoung\n
+        Birth Name: Choi Soo Young\n
+        Position: Lead Dancer, Lead Rapper, Vocalist\n
+        Birth Date: February 10, 1990\n
+        Zodiac sign: Aquarius\n
+        Birth Place: Gwangju, Gyeonggi, South Korea\n
+        Height: 170 cm (5’7″)\n
+        Weight: 49 kg (108 lbs)\n
+        Blood Type: O\n
+        Hobbies: Watching movies, listening to music, dancing\n
+        Specialty: Japanese\n
+    </string>
+
+    <string name="ynDesc">
+        Stage Name: Yoona\n
+        Birth Name: Im Yoon-A\n
+        Position: Lead Dancer, Lead Rapper, Vocalist, Visual, Center\n
+        Birth Date: May 30, 1990\n
+        Zodiac sign: Gemini\n
+        Birth Place: Seoul, South Korea\n
+        Height: 167 cm (5’6″)\n
+        Weight: 48 kg (106 lbs)\n
+        Blood Type: B\n
+        Hobbies: Watching movies\n
+        Specialty: Dancing, acting\n
+    </string>
+
+    <string name="snsdDesc">
+        SNSD (Girls’ Generation) consists of Taeyeon, Yuri, Hyoyeon, Sunny, Yoona,
+        Tiffany, Sooyoung, and Seohyun. Tiffany, Sooyoung, and Seohyun left S.M. Entertainment on
+        9 October 2017 but for now, their departure from SNSD wasn’t confirmed. Jessica left the
+        group in 2014. SNSD debuted in 2007, under S.M. Entertainment. \n\n
+
+        Girls’ Generation Fandom Name: S♥NE (So-One)\n
+        Girls’ Generation Official Fan Color: Pastel Rose Pink\n
+    </string>
+
+    <string name="basicInfo">
+        Student ID: 201811502\n
+        Name: Brielle T. Romero\n
+        Course: BS Computer Science
+    </string>
+
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <Button
+        android:id="@+id/btnAbtRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="162dp"
+        android:background="@drawable/menu_button"
+        android:text="Rate"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingAbout" />
+
+    <RatingBar
+        android:id="@+id/ratingAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="86dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+    <TextView
+        android:id="@+id/aboutLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-light"
+        android:text="ABOUT"
+        android:textColor="#fff"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-light"
+        android:text="BASIC INFORMATION"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/infoLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-light"
+        android:text="SKILLS"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutDesc" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="287dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="62dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutLabel"
+        app:srcCompat="@drawable/me" />
+
+    <TextView
+        android:id="@+id/aboutDesc"
+        android:layout_width="214dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/basicInfo"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoLabel" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="123dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="7dp"
+        android:text="Singing"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoLabel2" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="141dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="60dp"
+        android:text="Graphic Design"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="141dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="60dp"
+        android:text="Digital Painting"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="150dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="60dp"
+        android:text="Web Development"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="123dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="60dp"
+        android:text="Programming"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutDesc" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="123dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="60dp"
+        android:text="Video Editing"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="129dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="54dp"
+        android:text="Basic AutoCAD"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="129dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="54dp"
+        android:text="Photography"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
